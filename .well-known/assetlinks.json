@@ -1,14 +1,28 @@
-[
-    {
-        "relation": [
-            "delegate_permission/common.handle_all_urls"
-        ],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "com.goodhabitz.app.debug",
-            "sha256_cert_fingerprints": [
-                "[65:96:95:16:dc:a7:36:58:d2:30:ab:9e:52:17:ba:13:73:6c:55:b2:76:09:b3:ab:5d:2d:7c:3d:9b:05:69:2c]"
-            ]
-        }
-    }
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.goodhabitz.app.debug",
+    "sha256_cert_fingerprints":
+    ["65:96:95:16:dc:a7:36:58:d2:30:ab:9e:52:17:ba:13:73:6c:55:b2:76:09:b3:ab:5d:2d:7c:3d:9b:05:69:2c"]
+  }
+},
+ {
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.goodhabitz.app",
+    "sha256_cert_fingerprints":
+    ["65:96:95:16:dc:a7:36:58:d2:30:ab:9e:52:17:ba:13:73:6c:55:b2:76:09:b3:ab:5d:2d:7c:3d:9b:05:69:2c"]
+  }
+},
+ {
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.goodhabitz.challengeapp",
+    "sha256_cert_fingerprints":
+    ["6D:21:22:AB:0F:31:35:0D:5A:A6:BE:B5:2C:83:66:F6:32:87:F6:0C:C1:FC:0D:F8:93:6B:27:86:B1:B5:30:90"]
+  }
+}
 ]
