@@ -1,0 +1,15 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "7Y95DXNRQS.com.goodhabitz.app.debug"],
+             "components": [
+               {
+                  "/": "*",
+                  "comment": "Matches any URL with a path that starts with /buy/."
+               }
+             ]
+           }
+       ]
+   }
+}
